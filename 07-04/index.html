@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercícios</title>
+  <link rel="stylesheet" href="assets/style/index.css">
+</head>
+<body>
+
+
+
+  <!-- N 1 -->
+  <h2>Nível 1</h2>
+  <div class="ex1">Exercício 1</div>
+  <div class="ex2">Exercício 2</div>
+
+  <!-- N 2 -->
+  <h2>Nível 2</h2>
+  <div class="container">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+  </div>
+
+  <!-- N 3 -->
+  <h2>Nível 3</h2>
+  <div class="calc"></div>
+
+  <!-- N 4 -->
+  <h2>Nível 4</h2>
+  <div class="center">Centralizado</div>
+
+  <!-- N 5 -->
+  <h2>Nível 5</h2>
+  <div class="collapse1"></div>
+  <div class="collapse2"></div>
+
+  <!-- N 6 -->
+  <h2>Nível 6 - Card</h2>
+  <div class="card">
+    <h3>Título</h3>
+    <p>Texto dentro do card.</p>
+    <button>Botão</button>
+  </div>
+
+  <!-- N 7 -->
+  <h2>Nível 7</h2>
+  <div class="bug"></div>
+
+  <!-- N 8 -->
+  <h2>Nível 8</h2>
+  <div class="cards">
+  <div class="card2">
+    <h3>Card 1</h3>
+    <button>Ver mais</button>
+  </div>
+
+  <div class="card2">
+    <h3>Card 2</h3>
+    <button>Ver mais</button>
+  </div>
+
+  <div class="card2">
+    <h3>Card 3</h3>
+    <button>Ver mais</button>
+  </div>
+</div>
+
+</body>
+</html>
+
+<!-- 
+RESPOSTAS DOS EXERCÍCIOS
+
+Exercício 1:
+Sim, o elemento ficou maior que 200px por conta que o padding e a borda são somados à largura (box-sizing padrão é content-box).
+
+Exercício 2:
+Com box-sizing: border-box, o tamanho total permanece 200px, pois padding e borda passam a ser incluídos dentro da largura.
+
+Exercício 3:
+Quem realmente afasta os elementos é o margin. O padding apenas aumenta o espaço interno da caixa.
+
+Exercício 4:
+O tamanho total da caixa é 250px (200 + 40 de padding + 10 de borda).
+
+Exercício 5:
+Com border-box o tamanho total passa a ser 200px.
+
+Exercício 6:
+Não funciona sem width porque o elemento ocupa 100% da largura, então não sobra espaço para o auto centralizar.
+
+Exercício 7:
+O espaço entre elas é 20px, não 40px, por conta do margin collapse (as margens se juntam e não somam).
+
+Exercício 9:
+O problema é que o padding e a borda aumentam o tamanho total da caixa, quebrando o layout, para corrigir
+usar box-sizing: border-box pra manter o tamanho dentro de 200px.
+
+Exercício 10:
+O erro clássico é que o padding faz os cards ultrapassarem 30% da largura, corrige usando
+box-sizing: border-box pra manter o layout alinhado sem quebrar linha.
+-->
