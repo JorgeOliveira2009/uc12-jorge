@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercícios Display</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Exercícios Display</h1>
+
+  <!-- Exercício 1 -->
+  <h2>Exercício 1</h2>
+  <div class="ex1-div">Div (block)</div>
+  <span class="ex1-span">Span (inline)</span>
+
+  <!-- Exercício 2 -->
+  <h2>Exercício 2</h2>
+  <div class="ex2">Box 1</div>
+  <div class="ex2">Box 2</div>
+
+  <!-- Exercício 3 -->
+  <h2>Exercício 3</h2>
+  <span class="ex3">Span 1</span>
+  <span class="ex3">Span 2</span>
+
+  <!-- Exercício 4 -->
+  <h2>Exercício 4</h2>
+  <span class="ex4">Inline-block 1</span>
+  <span class="ex4">Inline-block 2</span>
+
+  <!-- Exercício 5 -->
+  <h2>Exercício 5</h2>
+  <div class="ex5">1</div>
+  <div class="ex5">2</div>
+  <div class="ex5">3</div>
+
+  <!-- Exercício 6 -->
+  <h2>Exercício 6</h2>
+  <div class="block">Block</div>
+  <span class="inline">Inline</span>
+  <div class="inline-block">Inline-block</div>
+
+  <!-- Exercício 7 -->
+  <h2>Exercício 7</h2>
+  <div class="none">Display none</div>
+  <div class="hidden">Visibility hidden</div>
+
+  <!-- Exercício 8 -->
+  <h2>Exercício 8</h2>
+  <nav class="menu">
+    <a href="#">Home</a>
+    <a href="#">Sobre</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <!-- Exercício 9 -->
+  <h2>Exercício 9</h2>
+  <a href="#" class="ex9">Link corrigido</a>
+
+  <!-- Exercício 10 -->
+  <h2>Exercício 10</h2>
+  <div class="card">
+    <span>Título do Card</span>
+    <button>Botão</button>
+  </div>
+
+</body>
+</html>
+<!--
+
+Exercício 1:
+A <div> ocupa a linha inteira (block).
+O <span> fica na mesma linha (inline).
+
+Exercício 2:
+Ficam uma abaixo da outra.
+Porque <div> é display: block e ocupa 100% da linha.
+
+Exercício 3:
+Não, o width não funciona.
+Porque elementos inline não respeitam width e height.
+
+Exercício 4:
+Sim, o width funciona.
+Sim, o comportamento mudou: agora ele aceita width/height e ainda fica na mesma linha (inline-block).
+
+Exercício 5:
+Usando inline-block, elas ficam lado a lado.
+Porque inline-block permite alinhar horizontalmente mantendo dimensões.
+
+Exercício 6:
+Block e inline-block respeitam width e height.
+Inline ignora width e height.
+
+Exercício 7:
+display: none remove o elemento completamente (some e não ocupa espaço).
+visibility: hidden deixa invisível, mas ainda ocupa espaço.
+
+Exercício 9:
+Não funciona porque <a> é inline.
+Correção: usar display: inline-block ou block.
+
+Exercício 10:
+Usei display: inline-block no botão.
+Porque ele permite definir largura e ainda ficar ao lado do texto.
+-->
