@@ -12,3 +12,5 @@ EXERCICIO 08/04:  https://jorgeoliveira2009.github.io/uc12-jorge/08-04/index    
 EXERCICIO 14/04: https://jorgeoliveira2009.github.io/uc12-jorge/14-04/index
 
 EXERCICIO 15/04: https://jorgeoliveira2009.github.io/uc12-jorge/15-04/index
+
+QUIZ 22/04:  https://jorgeoliveira2009.github.io/uc12-jorge/15-04/index
