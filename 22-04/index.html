@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Ippo</title>
+    <link rel="stylesheet" href="../22-04/assets/style/index.css">
+</head>
+<body>
+
+    <div id="placar">
+    Pontos: <span id="pontos">0</span>
+</div>
+
+    <div class="container">
+
+        
+        <div class="caixa" id="q1">
+            <p>Qual é o golpe mais famoso usado por Ippo?</p>
+
+            <button onclick="responder('A', 1)">A) Uppercut Supremo</button>
+            <button onclick="responder('B', 1)">B) Smash Dempsey</button>
+            <button onclick="responder('C', 1)">C) Dempsey Roll</button>
+            <button onclick="responder('D', 1)">D) Gancho Fantasma</button>
+            <button onclick="responder('E', 1)">E) Cross Final</button>
+
+            <div id="resultado1" class="resultado">
+                <img id="gif1" src="">
+                <p id="msg1"></p>
+            </div>
+        </div>
+
+        
+        <div class="caixa" id="q2" style="display: none;">
+            <p>Quem é o treinador do Ippo?</p>
+
+            <button onclick="responder('A', 2)">A) Takamura</button>
+            <button onclick="responder('B', 2)">B) Kamogawa</button>
+            <button onclick="responder('C', 2)">C) Miyata</button>
+            <button onclick="responder('D', 2)">D) Sendo</button>
+            <button onclick="responder('E', 2)">E) Date</button>
+
+            <div id="resultado2" class="resultado">
+                <img id="gif2" src="">
+                <p id="msg2"></p>
+            </div>
+        </div>
+        
+            
+
+    <div class="caixa" id="q3" style="display:none;">
+        <p>Qual é o estilo de boxe do Ippo?</p>
+        <button onclick="responder('A',3)">Outboxer</button>
+        <button onclick="responder('B',3)">Swarmer (Infighter)</button>
+        <button onclick="responder('C',3)">Counter Puncher</button>
+        <button onclick="responder('D',3)">Slugger</button>
+        <button onclick="responder('E',3)">Defensive</button>
+
+        <div id="resultado3" class="resultado">
+            <img id="gif3"><p id="msg3"></p>
+        </div>
+    </div>
+
+    
+    <div class="caixa" id="q4" style="display:none;">
+        <p>Quem é o rival direto de Ippo desde o início?</p>
+        <button onclick="responder('A',4)">Sendo</button>
+        <button onclick="responder('B',4)">Volg</button>
+        <button onclick="responder('C',4)">Miyata</button>
+        <button onclick="responder('D',4)">Mashiba</button>
+        <button onclick="responder('E',4)">Date</button>
+
+        <div id="resultado4" class="resultado">
+            <img id="gif4"><p id="msg4"></p>
+        </div>
+    </div>
+
+    
+    <div class="caixa" id="q5" style="display:none;">
+        <p>Qual é o nome do ginásio onde Ippo treina?</p>
+        <button onclick="responder('A',5)">Takamura Gym</button>
+        <button onclick="responder('B',5)">Tokyo Fight Club</button>
+        <button onclick="responder('C',5)">Kamogawa Boxing Gym</button>
+        <button onclick="responder('D',5)">Rising Punch Gym</button>
+        <button onclick="responder('E',5)">Champion House</button>
+
+        <div id="resultado5" class="resultado">
+            <img id="gif5"><p id="msg5"></p>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="fim">
+    <img src="../22-04/assets/images/final.gif">
+    <h1>OBRIGADO POR JOGAR! continue sua jornada, boxeador...</h1>
+</div>
+
+    <script src="../22-04/js/script.js"></script>
+</body>
+</html>
